@@ -1,41 +1,76 @@
 {
-    "squadName" : "Super Hero Squad",
-    "homeTown" : "Metro City",
+    "squadName" : "Ice Deal",
+    "homeTown" : "Cuba",
     "formed" : 2016,
-    "secretBase" : "Super tower",
+    "secretBase" : "Ice Deal S.A",
     "active" : true,
-    "members" : [
+    "producto" : [
       {
-        "name" : "Molecule Man",
-        "age" : 29,
-        "secretIdentity" : "Dan Jukes",
-        "powers" : [
-          "Radiation resistance",
-          "Turning tiny",
-          "Radiation blast"
-        ]
+        "name" : "ICELDs Tshirt",
+        "precio" : 28.30,
+        "tallas" : "s-xxl",
+        "colores" : [
+          "Negro",
+          "Blanco",
+          "Beich Phantom"
+        ],
+        "imagen":"./imagenes/tshirt (1).png"
       },
       {
-        "name" : "Madame Uppercut",
-        "age" : 39,
-        "secretIdentity" : "Jane Wilson",
-        "powers" : [
-          "Million tonne punch",
-          "Damage resistance",
-          "Superhuman reflexes"
-        ]
+        "name" : "Phant Shorts",
+        "precio" : 32,
+        "tallas" : "32-45",
+        "colores" : [
+          "Azul",
+          "Marron",
+          "Beich Phantom"
+        ],
+        "imagen":"./imagenes/short.png"
       },
       {
-        "name" : "Eternal Flame",
-        "age" : 1000000,
-        "secretIdentity" : "Unknown",
-        "powers" : [
-          "Immortality",
-          "Heat Immunity",
-          "Inferno",
-          "Teleportation",
-          "Interdimensional travel"
-        ]
+        "name" : "Butterfly Tshirt",
+        "precio" : 28.30,
+        "tallas" : "s-xxl",
+        "colores" : [
+          "Verde",
+          "Gris",
+          "Beich Phantom"
+        ],
+        "imagen":"./imagenes/tshirt (2).png"
+      }
+      ,
+      {
+        "name" : "Stormed Tshirt",
+        "precio" : 28.30,
+        "tallas" : "s-xxl",
+        "colores" : [
+          "Rojo",
+          "Naranja",
+          "Beich Phantom"
+        ],
+        "imagen":"./imagenes/tshirt (3).png"
+      },
+      {
+        "name" : "Phantom jacket",
+        "precio" : 55,
+        "tallas" : "s-l",
+        "colores" : [
+          "Negro",
+          "Blanco",
+          "Beich Phantom"
+        ],
+        "imagen":"./imagenes/storm_jacket.png"
+      },
+      {
+        "name" : "Ocean Shorts",
+        "precio" : 33,
+        "tallas" : "32-45",
+        "colores" : [
+          "Negro Intense",
+          "Blanco Aqua",
+          "Beich Phantom"
+        ],
+        "imagen":"./imagenes/ocean_short.png"
       }
     ]
   }

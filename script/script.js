@@ -25,7 +25,7 @@ function populateHeader(jsonObj) {
 }
 
 function showHeroes(jsonObj) {
-    const heroes = jsonObj['members'];
+    const heroes = jsonObj['producto'];
   
     for (var i = 0; i < heroes.length; i++) {
       const myArticle = document.createElement('article');
@@ -34,18 +34,21 @@ function showHeroes(jsonObj) {
       const myPara2 = document.createElement('p');
       const myPara3 = document.createElement('p');
       const myList = document.createElement('ul');
-  
+      const imagen = document.createElement('img')
+
+
       myH2.textContent = heroes[i].name;
-      myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
-      myPara2.textContent = 'Age: ' + heroes[i].age;
-      myPara3.textContent = 'Superpowers:';
+      myPara1.textContent = 'precio: ' + heroes[i].precio;
+      myPara2.textContent = 'tallas: ' + heroes[i].tallas;
+      myPara3.textContent = 'Colores';
   
-      const superPowers = heroes[i].powers;
+      const superPowers = heroes[i].colores;
       for (var j = 0; j < superPowers.length; j++) {
         const listItem = document.createElement('li');
         listItem.textContent = superPowers[j];
         myList.appendChild(listItem);
       }
+      imagen.src = heroes[i].imagen
   
       myArticle.appendChild(myH2);
       myArticle.appendChild(myPara1);
@@ -54,6 +57,7 @@ function showHeroes(jsonObj) {
       myArticle.appendChild(myList);
   
       section.appendChild(myArticle);
+      myArticle.appendChild(imagen);
     }
 }
 

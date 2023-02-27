@@ -1,7 +1,7 @@
 
 html {
-    font-family: 'helvetica neue', helvetica, arial, sans-serif;
-  }
+  font-family: 'Montserrat', sans-serif;
+   }
   
   body {
     width: 800px;
@@ -9,19 +9,19 @@ html {
   }
   
   h1, h2 {
-    font-family: 'Faster One', cursive;
+    font-family: 'Montserrat', sans-serif;
   }
   
   /* header styles */
   
   h1 {
-    font-size: 4rem;
+    font-size: 8rem;
     text-align: center;
   }
   
   header p {
     font-size: 1.3rem;
-    font-weight: bold;
+    font-weight: 400;
     text-align: center;
   }
   
@@ -41,8 +41,8 @@ html {
   }
   
   h2 {
-    font-size: 2.5rem;
-    letter-spacing: -5px;
+    font-size: 3rem;
+    letter-spacing: -3px;
     margin-bottom: 10px;
   }
   
